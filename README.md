@@ -20,6 +20,7 @@ directory for test files
 
 ## Running instructions
 * Download Project
+* [Add chromedriver to path variable](https://www.browserstack.com/guide/run-selenium-tests-using-selenium-chromedriver)
 * Check installed packages:
 
 `pip list`
@@ -32,5 +33,6 @@ if packaged are not present run
 
 `pip install selenium pytest
 `
-* run command
+* for running test cases run command
+
 `pytest tests/test_demo.py --capture=no`
